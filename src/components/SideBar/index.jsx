@@ -6,7 +6,7 @@ import "./sidebar.css";
 function index({showSideBar, setShowSideBar}) {
   console.log(showSideBar)
   return (
-    <div className={`sidebar-conatiner md:w-2/12 md:flex md:flex-col md:relative h-[100vh] fixed md:z-0 z-30  md:border-r-2 md:transform-none transition-all duration-200 delay-200 ease-out ${showSideBar ? "" :"-translate-x-full"}`}>
+    <div className={`sidebar-conatiner md:w-2/12 md:flex md:flex-col md:relative md:bg-inherit bg-white h-[100vh] fixed md:z-0 z-30  md:border-r-2 md:transform-none transition-all duration-200 delay-200 ease-out ${showSideBar ? "" :"-translate-x-full"}`}>
       <div className="sidebar-title-section h-12 w-full flex flex-row justify-between p-3 items-center">
         <div className="flex row gap-x-3">
           <svg
