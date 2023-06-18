@@ -5,7 +5,7 @@ function index({ title }) {
   const [task, setTask] = useState(title);
   const [isEditing, setEditing] = useState(false);
   return (
-    <div className="flex flex-row flex-1 justify-between h-12 items-center">
+    <div className="flex md:flex-row flex-col flex-1 md:justify-between h-12 md:items-center md:gap-y-0 gap-y-4 ">
        
       <div className="flex flex-row gap-x-2 items-center">
       <Editable

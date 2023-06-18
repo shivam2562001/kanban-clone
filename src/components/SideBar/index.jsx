@@ -3,9 +3,10 @@ import CustomTile from "../CustomTile";
 import NoteViewContainer from "../NoteViewContainer";
 import "./sidebar.css";
 
-function index() {
+function index({showSideBar, setShowSideBar}) {
+  console.log(showSideBar)
   return (
-    <div className="sidebar-conatiner w-2/12 flex flex-col ">
+    <div className={`md:sidebar-conatiner md:w-2/12 md:flex md:flex-col md:relative h-[100vh] fixed md:z-0 z-30  md:bg-inherit bg-white md:transform-none transition-all duration-200 delay-200 ease-out ${showSideBar ? "" :"-translate-x-full"}`}>
       <div className="sidebar-title-section h-12 w-full flex flex-row justify-between p-3 items-center">
         <div className="flex row gap-x-3">
           <svg
@@ -33,7 +34,7 @@ function index() {
 
           <div className="siderbar-title-text">Project M.</div>
         </div>
-        <div className="cursor-pointer">
+        <div className="cursor-pointer" onClick={()=>setShowSideBar(false)}>
           <svg
             width="26"
             height="20"

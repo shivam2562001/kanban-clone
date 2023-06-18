@@ -14,17 +14,18 @@ import planttwo from "./assets/plant2.png";
 import "./App.css";
 function App() {
   const [isActive, setIsActive] = useState(true);
-
+  const [showSideBar,setShowSideBar] = useState(false);
+  
   return (
     <div className="flex flex-row bg-white justify-start items-start w-full  ">
-      <SideBar />
+      <SideBar showSideBar={showSideBar} setShowSideBar={setShowSideBar}/>
       <div className="flex flex-col flex-auto h-[100vh] ">
-        <Navbar />
+        <Navbar showSideBar={showSideBar} setShowSideBar={setShowSideBar}/>
         <div className="flex overflow-y-scroll flex-col flex-auto h-[100vh]">
-        <div className="flex  mt-2 py-4 px-14 ">
+        <div className="flex  mt-2 py-4 md:px-14 px-4 md:mb-0 mb-4">
           <SectionTab title={"Mobile App"} />
         </div>
-        <div className="flex flex-row mt-1 py-4 px-14 justify-between items-center">
+        <div className="flex md:flex-row flex-col md:mt-1 mt-6 py-4 md:px-14 px-4 md:justify-between md:items-center gap-y-4 md:gap-y-0">
           <div className="flex flex-row gap-x-4">
             <CustomButton>
               <svg
@@ -159,7 +160,7 @@ function App() {
             <FormatOption isActive={isActive} setIsActive={setIsActive} />
           </div>
         </div>
-        <div className="flex flex-row px-14 gap-x-4  justify-between flex-auto ">
+        <div className="flex md:flex-row flex-col md:px-14 px-4 md:gap-x-4 gap-y-4  justify-between flex-auto ">
           <KanbanTab
             title={"To Do"}
             color={"darkblue"}
