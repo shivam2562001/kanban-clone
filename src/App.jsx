@@ -182,7 +182,7 @@ function App() {
               }
             </CustomCard>
           </KanbanTab>
-          <KanbanTab title={"On Progress"} color={"lemonorange"} numofcard={4}>
+          <KanbanTab title={"On Progress"} color={"lemonorange"} numofcard={3}>
             <CustomCard
               priority={"low"}
               headTitle={"Onboarding Illustrations "}
@@ -196,7 +196,7 @@ function App() {
               </div>
             </CustomCard>
           </KanbanTab>
-          <KanbanTab title={"Done"} color={"skygreen"} numofcard={4}>
+          <KanbanTab title={"Done"} color={"skygreen"} numofcard={2}>
             <CustomCard priority={"completed"} headTitle={"Mobile App Design"}>
               <img src={scenetwo} width={280} height={110} />
             </CustomCard>
