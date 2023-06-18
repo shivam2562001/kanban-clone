@@ -1,0 +1,8 @@
+
+
+.image-style{
+    width:38px; 
+    height: 38px;
+    border-radius: 19px;
+   object-fit: contain;
+}

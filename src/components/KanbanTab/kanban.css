@@ -1,0 +1,41 @@
+.kanban-container {
+    width: 354px;
+    height: 90%;
+    padding: 10px;
+    background: #F5F5F5;
+    border-radius: 16px 16px 16px 16px;
+}
+
+.darkblue-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: #5030E5;
+}
+
+.lemonorange-dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: #FFA500;
+}
+.skygreen-dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: #8BC48A;
+}
+
+.darkblue-section-divder{
+    background: #5030E5;
+    height:3px;
+}
+.lemonorange-section-divder{
+    background: #FFA500;
+    height:3px;
+}
+.skygreen-section-divder{
+    background: #8BC48A;
+    height:3px;
+}
+

@@ -1,0 +1,72 @@
+.card-style {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.header-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #0D062D;
+}
+
+.para-text {
+
+    width: 274px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #787486;
+}
+
+
+.image-section-avatar {
+    width: 24px;
+    height: 24px;
+}
+
+
+.slideavatar {
+    right: -20px
+}
+
+.slideavatartwo {
+    right: -40px
+}
+
+.slideavatarthree {
+    right: -60px
+}
+
+.footer-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #787486;
+}
+
+
+.is-dragging {
+    scale: 1.05;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    opacity: 1;
+    transform: rotate(10deg);
+    transition: all 0.4s ease-in-out;
+  }
+
+

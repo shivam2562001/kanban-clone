@@ -1,0 +1,52 @@
+ .invite-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+
+    color: #5030E5;
+ }
+
+ .image-section {
+    width: 38px;
+    height: 38px;
+
+ }
+
+ .slide {
+    right: -30px
+ }
+
+ .slidetwo {
+    right: -60px
+ }
+
+ .slidethree {
+    right: -90px
+ }
+
+ .slidefour {
+    right: -120px
+ }
+
+ .add-more-section {
+    position: absolute;
+    right: -120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    background: #F4D7DA;
+    border: 1px solid #FFFFFF;
+    color: #D25B68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }

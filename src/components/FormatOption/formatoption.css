@@ -1,0 +1,9 @@
+.highlight{
+  width: 40px;
+  height: 40px;
+  background-color: #5030E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
